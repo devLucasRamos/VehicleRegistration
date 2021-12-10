@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
-using VehicleRegistration.Models;
+using VehicleRegistration.Models.ViewModels;
 
 namespace VehicleRegistration.Controllers
 {
