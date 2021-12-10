@@ -1,6 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Configuration;
-using Microsoft.Extensions.DependencyInjection;
+using VehicleRegistration;
 using VehicleRegistration.Data;
 var builder = WebApplication.CreateBuilder(args);
 
