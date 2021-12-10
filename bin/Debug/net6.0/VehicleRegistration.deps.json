@@ -10,7 +10,8 @@
         "dependencies": {
           "Microsoft.EntityFrameworkCore.SqlServer": "6.0.0",
           "Microsoft.EntityFrameworkCore.Tools": "6.0.0",
-          "Microsoft.VisualStudio.Web.CodeGeneration.Design": "6.0.0"
+          "Microsoft.VisualStudio.Web.CodeGeneration.Design": "6.0.0",
+          "Pomelo.EntityFrameworkCore.MySql": "6.0.0"
         },
         "runtime": {
           "VehicleRegistration.dll": {}
@@ -1235,6 +1236,14 @@
           }
         }
       },
+      "MySqlConnector/2.0.0": {
+        "runtime": {
+          "lib/net6.0/MySqlConnector.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
+          }
+        }
+      },
       "NETStandard.Library/1.6.1": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "3.1.0",
@@ -1388,6 +1397,19 @@
           "lib/netstandard2.0/NuGet.Versioning.dll": {
             "assemblyVersion": "5.11.0.10",
             "fileVersion": "5.11.0.10"
+          }
+        }
+      },
+      "Pomelo.EntityFrameworkCore.MySql/6.0.0": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.Relational": "6.0.0",
+          "Microsoft.Extensions.DependencyInjection": "6.0.0",
+          "MySqlConnector": "2.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/Pomelo.EntityFrameworkCore.MySql.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.0.0"
           }
         }
       },
@@ -2704,6 +2726,13 @@
       "path": "microsoft.win32.systemevents/4.7.0",
       "hashPath": "microsoft.win32.systemevents.4.7.0.nupkg.sha512"
     },
+    "MySqlConnector/2.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-EY0KXqQas+QvdZQU0NPkqBSfJitWAl8IUCg0v/Qn0P7f/KApJTFJFm8czYWoDPyewUjPHrAnE/cSYzzSFGc8Ng==",
+      "path": "mysqlconnector/2.0.0",
+      "hashPath": "mysqlconnector.2.0.0.nupkg.sha512"
+    },
     "NETStandard.Library/1.6.1": {
       "type": "package",
       "serviceable": true,
@@ -2780,6 +2809,13 @@
       "sha512": "sha512-mCv/GzvMk5iatWoZY41PoIShEbwVxq9CDCc1fV/uqPFKZ4DD/1JuKZ5AL/FJJRsTanvMR3EOXKYCLdQ7PFYn8Q==",
       "path": "nuget.versioning/5.11.0",
       "hashPath": "nuget.versioning.5.11.0.nupkg.sha512"
+    },
+    "Pomelo.EntityFrameworkCore.MySql/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-iWloXFjpN6BllZA9oPqZTW9mNtFV5Q6DFv0WwFyh1IuOJ71btS3ifTwpLmaFXSlXzuEU9o7Rul0dU0WiwkOq0Q==",
+      "path": "pomelo.entityframeworkcore.mysql/6.0.0",
+      "hashPath": "pomelo.entityframeworkcore.mysql.6.0.0.nupkg.sha512"
     },
     "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {
       "type": "package",

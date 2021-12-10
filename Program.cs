@@ -1,21 +1,20 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using VehicleRegistration.Data;
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddDbContext<VehicleRegistrationContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("VehicleRegistrationContext")));
+ options.UseMySql("server=localhost;initial catalog=VehicleRegistrationContext;uid=root;pwd=12345",
+ Microsoft.EntityFrameworkCore.ServerVersion.Parse("8.0.27-mysql")));
 
-// Add services to the container.
 builder.Services.AddControllersWithViews();
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
 {
     app.UseExceptionHandler("/Home/Error");
-    // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
     app.UseHsts();
 }
 

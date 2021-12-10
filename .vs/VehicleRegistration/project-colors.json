@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "1b2fdfea-4804-45c1-9e8f-9a6afef9bb2e": {
+      "ProjectGuid": "1b2fdfea-4804-45c1-9e8f-9a6afef9bb2e",
+      "DisplayName": "VehicleRegistration",
+      "ColorIndex": 0
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Arquivos Diversos",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 1
+}
