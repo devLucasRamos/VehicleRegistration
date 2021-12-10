@@ -1,4 +1,10 @@
+﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
+using VehicleRegistration.Data;
 var builder = WebApplication.CreateBuilder(args);
+
+builder.Services.AddDbContext<VehicleRegistrationContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("VehicleRegistrationContext")));
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
