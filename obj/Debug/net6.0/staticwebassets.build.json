@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "AElIJXb7nYWLorUf/AknKkqylL0FB3q/Hq7YTHP0MD4=",
+  "Hash": "4LoF9rE44EqHucpdjlgUar97KVtM47m7N+DyaWGC558=",
   "Source": "VehicleRegistration",
   "BasePath": "_content/VehicleRegistration",
   "Mode": "Default",
@@ -236,6 +236,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Identity": "C:\\Users\\lucas\\source\\repos\\VehicleRegistration\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrapBeauty.css",
+      "SourceId": "VehicleRegistration",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\lucas\\source\\repos\\VehicleRegistration\\wwwroot\\",
+      "BasePath": "_content/VehicleRegistration",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrapBeauty.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrapBeauty.css"
+    },
+    {
+      "Identity": "C:\\Users\\lucas\\source\\repos\\VehicleRegistration\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrapBeauty.min.css",
+      "SourceId": "VehicleRegistration",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\lucas\\source\\repos\\VehicleRegistration\\wwwroot\\",
+      "BasePath": "_content/VehicleRegistration",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrapBeauty.min.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrapBeauty.min.css"
     },
     {
       "Identity": "C:\\Users\\lucas\\source\\repos\\VehicleRegistration\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
