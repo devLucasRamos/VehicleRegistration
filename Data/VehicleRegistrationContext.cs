@@ -14,6 +14,8 @@ namespace VehicleRegistration.Data
         {
         }
 
-        public DbSet<VehicleRegistration.Models.VehicleTypes> VehicleTypes { get; set; }
+        public DbSet<VehicleTypes> VehicleTypes { get; set; }
+        public DbSet<Owner> Owner { get; set; }
+        public DbSet<Vehicle> Vehicle { get; set; }
     }
 }
